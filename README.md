@@ -4,9 +4,12 @@
 Computational analysis comparing NACA 0012, 1408, and 2408 airfoils. Determined optimal aspect ratio (AR=10) considering aerodynamic efficiency vs structural weight.
 
 ## Results
-- **Camber Effect:** Each 1% camber adds 0.115 Cl at zero angle
-- **Best Airfoil:** NACA 2408 (L/D = 83.8 at α=5°)
-- **Optimal AR:** 10 (balance of performance and weight)
+-**Camber Effect:** Linear relationship: Each 1% camber adds ~0.115 Cl at zero angle
+  - 0% camber (NACA 0012): Cl = 0.000 at α=0°
+  - 1% camber (NACA 1408): Cl = 0.114 at α=0°
+  - 2% camber (NACA 2408): Cl = 0.229 at α=0°
+- **Best Airfoil:** NACA 2408 achieves highest L/D = 83.8 at α=5°
+- **Optimal AR:** Aspect ratio 10 provides best trade-off between aerodynamic efficiency (L/D=25.5) and structural weight
 
 ## Results
 ![Airfoil Comparison](airfoil_comparison.png)
