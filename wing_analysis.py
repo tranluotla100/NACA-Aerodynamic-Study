@@ -90,20 +90,19 @@ ax2.plot(aspect_ratios[optimal_idx], wing_weights[optimal_idx],
 
 plt.tight_layout()
 plt.savefig('wing_tradeoff.png', dpi=150, bbox_inches='tight')
-print(f"\n✓ Saved trade-off plot as 'wing_tradeoff.png'")
 
 with open('wing_analysis.csv', 'w') as f:
     f.write('Aspect_Ratio,L/D_ratio,Relative_Weight\n')
     for i in range(len(aspect_ratios)):
         f.write(f'{aspect_ratios[i]},{ld_ratios[i]:.1f},{wing_weights[i]:.2f}\n')
 
-print("✓ Saved analysis as 'wing_analysis.csv'")
 
 print("\n" + "=" * 30)
 print("Conclusion:")
 print("=" * 30)
 print("Higher AR wings are aerodynamically better but heavier.")
 print(f"AR={aspect_ratios[optimal_idx]} provides the best trade-off for genral purpose avition.")
+
 
 
 plt.show()
