@@ -1,0 +1,4 @@
+Airfoil,Cl_0deg,Cl_5deg,Best_L/D,Best_Angle
+NACA 0012 (Symmetric),0.0000,0.5571,72.2,10.0
+NACA 1408 (1% camber),0.1143,0.6642,72.4,5.0
+NACA 2408 (2% camber),0.2294,0.7720,83.8,5.0
