@@ -152,6 +152,5 @@ with open('airfoil_summary.csv', 'w') as f:
         
         f.write(f'{name},{cl_0:.4f},{cl_5:.4f},{best_ld:.1f},{best_angle}\n')
 
-print("✓ Saved summary as 'airfoil_summary.csv'")
 
 plt.show()
