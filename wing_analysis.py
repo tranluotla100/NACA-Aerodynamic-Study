@@ -106,3 +106,4 @@ print(f"AR={aspect_ratios[optimal_idx]} provides the best trade-off for genral p
 
 
 plt.show()
+
